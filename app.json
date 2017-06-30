@@ -1,0 +1,7 @@
+{
+  "name": "Agenda Escolar",
+  "description": "@genda escolar: App para controlar agendas escolares",
+  "repository": "https://github.com/aaraujorjo/agenda-escolar",
+  "logo": "http://ionicframework.com/img/ionic-logo-blog.png",
+  "keywords": ["ionic", "static"]
+}
