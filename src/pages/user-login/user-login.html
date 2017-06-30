@@ -1,0 +1,22 @@
+
+<ion-content padding>
+
+
+    <div class="logo"><img src="assets/images/agenda_do_aluno.png" width="400px"></div>
+
+    <ion-list no-lines padding-top>
+      <ion-item>
+        <ion-input type="text" placeholder="Usuário"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input type="password" placeholder="Senha"></ion-input>
+      </ion-item>
+    </ion-list>
+    <button ion-button block round color="secondary" (click)="dashboardPage()">Entrar</button>
+
+    <div padding-top>
+    <button ion-button block color="light" clear (click)="signupPage();">Ainda não é usuário ? Cadastre-se</button>
+    <button ion-button block color="light" clear (click)="forgotPasswordPage();">Esqueceu sua Senha?</button>
+  </div>
+
+</ion-content>
